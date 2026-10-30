@@ -20,8 +20,9 @@ Verify 0 · Cite needed 0 · Uncertain 1 · SME verify 0 · Placeholders 0 · Au
 ### Authorities
 - none
 ### Not done
-- run | address restoration | broken XLOOKUP cells retained unchanged at attorney instruction ("do not remove any cells")
+- run | address restoration | broken XLOOKUP cells retained unchanged at attorney instruction; "original workbook" upload identical to prior file, no address tab
 
 ## Run record
-- Columns A:J unchanged (0 cells altered or removed; 531 rows retained); flagged cells filled light yellow
-- Column K "Error Notes" added: 500 rows noted; sheet "Error Notes Summary" added
+- Sheet "NY 2026" XML, shared strings, and existing comments byte-identical to upload (no column, fill, or value added)
+- Added sheets "Error Notes" (500 rows, by row and cell) and "Error Summary"; one cellXfs style appended for wrap
+- Existing comments (Mehrish Khan, 17) read; row 38 chambers comment conflicts with column D, noted
